@@ -1,15 +1,21 @@
-{% render 'partials/head.liquid' %}
-
-
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDND Visitekaartje</title>
+    <link rel="stylesheet" href="public/styleprofilecard.css">
+  </head>
+  <body>
     <div class="body-cont"></div>
     <div class="body">
 </div>
 
     <header>
     <article> 
-    <img src="profilecardphoto.png">
+    <img src="public/profilecardphoto.png">
     <div>
-      <h1>{{ person.name }}</h1>
+      <h1> Renzo Wille</h1>
       <p> Web Developer In Opleiding</p>
       <div class="header"></div>
       <div id ="body">
@@ -54,4 +60,7 @@
     </div>
   </main>
 
-{% render 'partials/foot.liquid' %}
+    <script src="scripts/script.js"></script>
+    
+  </body>
+</html>
