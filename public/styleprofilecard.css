@@ -14,9 +14,6 @@ body {
   margin-top: 200px;
   background-color: #6B73;
 }
-body:hover{
-  perspective: 400px; transform: rotateY(180deg);
-}
 
 header {
   border: 5px solid #73896B; background: linear-gradient(#73896B, #ffffff);

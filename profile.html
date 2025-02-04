@@ -1,6 +1,16 @@
-{% render 'partials/head.liquid' %}
+<!DOCTYPE html>
+<html lang="en">
 
-<section class="profilecard">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilehtml</title>
+    <link rel="stylesheet" href="public/styleprofilecard.css">
+</head>
+
+<body>
+
+    <section class="profilecard">
         <img src="public/profilecardphoto.png">
         <h1>{{ person.name }}</h1>
         <p> Web Developer In Opleiding</p>
@@ -75,4 +85,6 @@
         </div>
     </section>
 
-{% render 'partials/foot.liquid' %}
+</body>
+
+</html>
